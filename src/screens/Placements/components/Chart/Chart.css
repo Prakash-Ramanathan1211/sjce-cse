@@ -1,0 +1,15 @@
+.chart-outer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-container {
+  width: 960px;
+}
+
+/* @media screen and (max-width: 760px) {
+  .chartWrapper {
+    width: 500px;
+  }
+} */

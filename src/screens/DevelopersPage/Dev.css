@@ -1,0 +1,36 @@
+
+.dev-image{
+    border-radius: 50%;
+    /* transition: transform 0.5s ease-out; */
+    position: relative;
+    /* z-index: 1; */
+}
+
+
+.dev-layer {
+    z-index:-1;
+    position:absolute;
+    top:calc(100% - 1px);
+    height:1%;
+    width:100%;
+    left:0;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    transition:0.5s;    
+}
+  
+.card:hover  .dev-layer{
+    top:0;
+    height: 100%;
+    z-index: -1;
+}
+  
+  
+.over{
+    z-index: 1;
+}
+  
+
+
+  

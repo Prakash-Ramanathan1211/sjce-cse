@@ -1,0 +1,14 @@
+.content-card1 {
+  background-color: #ffffff;
+  border-radius: 20px;
+
+  
+}
+
+
+@media screen and (max-width: 920px) {
+  .video-wrapper {
+    height: 250px;
+    width: 100%;
+  }
+}
